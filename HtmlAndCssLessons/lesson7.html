@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" lang="tr-TR" />
+<title>Arda Kaya Lesson 7</title>
+</head>
+
+<body>
+	<center><h1>Lesson 7</h1></center> <hr>
+	
+	<form name="form1" id="form1" method="post" action="#"> <!--Action ile form verilerinin gönderileceği adres seçilir. -->
+		<p><input type="text" name="username" id="username" autocomplete="off" maxlength="7" placeholder="Kullanıcı Adı" size="100"/></p>
+		<p><input type="password" name="pass" id="pass" maxlength="10" placeholder="Şifre" size="50"/></p>
+		<p><input type="email" name="email" id="email" autocomplete="off" placeholder="Mail Adresi" size="100"/></p>
+		<p><input type="url" name="url" id="url" placeholder="Url"/></p>
+		<p><input type="tel" name="tel" id="tel" placeholder="Telefon"/></p>
+		<p><textarea name="metin" id="metin" placeholder="Not" rows="5" cols="20"></textarea></p>
+		
+		<p>
+			<label for="chckgr1"> Kullanıcı Adı<!--label içinde iki checkbox'ı aynı name'de verdiğimizde grup oluştururlar. id her zaman farklı -->
+			<input type="checkbox" value="0" name="chck1" id="chckgr1"/>Kullanıcı Adını Hatırla
+			</label>
+		
+			<label>
+		<input type="checkbox" value="0" name="chck1" id="chckgr2"/>Şifreyi Hatırla
+			</label>
+		</p>
+		
+		<p>
+			<label> 
+			<input type="radio" value="0" name="radio1" id="radio1"/>Mail Adresini Hatırla <!--checkbox yerine radio olursa aynı gruptan sadece birini seçebiliyoruz. name'ler aynı id'ler farklı olmalı. -->
+			</label>
+		
+			<label>
+		<input type="radio" value="0" name="radio1" id="radio2"/>Telefon Numarasını Hatırla
+			</label>
+		</p>
+		
+		<p>
+			<select>
+				<option value="-1" selected>Şehir Seçiniz</option>
+				<option value="0">Ankara</option>
+				<option value="1">İstanbul</option>
+				<option value="2">İzmir</option>
+			</select>
+		
+		</p>
+			
+		<input type="submit" value="Send"/> <!--submit sunucuya göndermemiz için kullanılır.-->
+	 	<input type="button" value="Button" onclick="alert('Buton JS Kodu ile Çalışıyor.')"/> <!--sunucuya gönderilmeyecekse js işlemi vs. yapılacaksa button kullanılır.-->
+		<input type="reset" value="Reset"/>
+	</form>
+	
+</body>
+</html>

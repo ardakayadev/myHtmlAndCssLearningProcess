@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Arda Kaya Lesson 2</title>
+</head>
+<body>
+	<h1>Tablo Oluşturma</h1><hr>
+	<a name="return"></a> <!sayfanın üst kısmına dönmek için yer belirttik. buraya dönülecek. return ismi değiştirilebilir>
+	
+	<table width="40%" border="1" cellpadding="15" cellspacing="5"> <!--cellpadding: içerideki elemanların sütun kenarlarına olan boşluğunu ayarlar.  cellspacing:sütun çerçevelerinin kalınlığını ayarlar.-->
+		<caption><b>Arda Kaya</b></caption>
+		<thead> <!--table head: tablo başlıkları-->
+			<tr> <!--table row ile satır (row) oluşturur.-->
+				
+				<th>Thead Sütun 1</th> <!--thead'de th ile sütun oluşturulur.-->
+			 	<th>Thead Sütun 2 </th>
+				<th>Thead Sütun 3</th>
+				
+			</tr>
+		</thead>
+			
+		<tbody>
+			<tr>
+				<td align="right">tbody Sütun 1</td> <!--align: yaslamak.-->
+				<td align="center">tbody Sütun 2</td>
+				<td>tbody Sütun 3</td>
+			</tr>
+			
+		</tbody>
+		
+		<tfoot>
+			<tr align="center"> <!--align'ı tr'ye verdiğimiz için satırdakilerin hepsini center'a aldı.-->
+				<td>tfoot Sütun 1</td> 
+				<td>tfoot Sütun 2</td>
+				<td>tfoot Sütun 3</td>
+			</tr>
+		</tfoot>
+	</table>
+	
+	
+	<!-------------------------------------------------------------------------------------------------------------------->
+	
+	<hr>
+	<h1>Tablo Oluşturmada Colspan</h1>
+	<hr>
+	
+	<table width="40%" border="1" cellpadding="15" cellspacing="5" align="center"> <!--cellpadding: içerideki elemanların sütun kenarlarına olan boşluğunu ayarlar.  cellspacing:sütun çerçevelerinin kalınlığını ayarlar.-->
+		
+		<thead> <!--table head: tablo başlıkları-->
+			<tr> <!--table row ile satır (row) oluşturur.-->
+				
+				<th>Thead Sütun 1</th> <!--thead'de th ile sütun oluşturulur-->
+			 	<th colspan="2">Thead Sütun 2 </th>
+				
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr>
+				<td>tbody Sütun 1</td> <!--tbody ve tfoot'ta td ile sütun oluşturulur.-->
+				<td>tbody Sütun 2</td>
+				<td>tbody Sütun 3</td>
+			</tr>
+			
+		</tbody>
+		
+		<tfoot>
+			<tr>
+				<td>tfoot Sütun 1</td> 
+				<td>tfoot Sütun 2</td>
+				<td>tfoot Sütun 3</td>
+			</tr>
+		</tfoot>
+	</table>
+	<!-------------------------------------------------------------------------------------------------------------------->
+		<hr>
+	<h1>Link koyma</h1>
+		<hr>
+	
+<p><a href="https://www.instagram.com/arda.kaya" target="_blank" title="Instagram Hesabım">Arda Kaya Instagram</a></p> <!--target komutu linkin yeni sekmede açılmasını sağlar.-->
+<p><a href="mailto:kayaarda.arda@gmail.com" title="Mail Adresim">Arda Kaya Mail</a></p> <!--mailto yazılmalıdır.-->
+	
+	.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>
+	
+<p><a href="#return">Sayfanın üst kısmına çık.</a></p>	
+	
+	
+	
+</body>
+	
+	
+	
+	
+	
+</html>

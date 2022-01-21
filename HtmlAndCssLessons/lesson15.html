@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" http-equiv="refresh" content="15000"> <!--charset sonrasındaki iki etiket sayfayı auto refresh'ler-->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<!--
+		VIEWPORT (GÖRÜNÜM) AYARLAMA:
+
+		width=device-width - Görünüm ayarlarında genişliği girilen cihazın genişliği ne ise o olarak belirle. Bu mantıkta mobilden girilirse mobil genişlik, normal bilgisayardan girilirse tarayıcının çözünürlüğü belirlenir.
+		
+		initial-scale=1.0 - Sayfanın yakınlık seviyesidir. 1.0 = 100% - Daha büyük yapmak isterseniz örneğin 1.7 olarak belirleyip test edebilirsiniz.
+
+		user-scalable=no - Kullanıcıların sayfayı yakınlaştırmasını engellemek için kullanılır.
+
+		minimum-scale=1.0 - Sayfanın minimum yakınlık değeri. (1.0 = 100%)
+
+		maximum-scale=1.0 - Sayfanın maksimum yakınlık değeri. (1.0 = 100%)
+
+		Bunlar genelde css ile ayarlanır.--> 
+																					
+	<title>Arda Kaya Lesson 15	</title>
+	<base href="http://localhost/XhtmlAndCssLessons/"> <!--Varsayılan yol, sunucuda çalışırken lazım olacak. 
+		Bunu yaptıktan sonra artık ben <img src="upload/img/resim.jpg"> şeklinde kullanırsam aslında şu şekilde yorumlanacak bu; <img src="https://localhost/upload/img/resim.jpg">-->
+</head>
+<body>
+	<center>
+		<h1>Lesson 15</h1>
+	</center> <hr>
+
+<iframe name="iframe_link_ac" src="lesson3.html" frameborder="0" scrolling="yes" width="300" height="550"></iframe>
+
+<a href="lesson4-5.html" target="iframe_link_ac">Lesson4-5'e Git</a>
+
+<p>Klavye kısayollarını belirtmek için "kbd" etiketi kullanılır. Örneğin; </p>
+
+<p>Sayfa kaynağını görüntülemek için <kbd>command + option + u</kbd> kısayolunu kullanın.</p>
+ 
+ <hr>
+
+ Değişken tanımlamak için "var" etiketi kullanılır. Bu değişkenler matematiksel ya da yazılımsal değişkenler olabilir. Örneğin;
+
+Einstein'ın meşhur tarifi: <var>E</var> = <var>mc</var> <sup>2</sup>
+ <hr>
+
+ <h3>Label Kullanımı</h3
+
+ <form action="" method="post">
+        
+    <label for="kadi">Kullanıcı adı</label>
+    <input type="text" name="kullanici_adi" id="kadi"> <br> <!--Label'daki "for", ilgili input'taki id'ye eşit olmalı. -->
+    
+    <label for="sifre">Şifre</label>
+    <input type="password" name="sifre" id="sifre"> <br>
+    
+    <button type="submit">Giriş yap</button>
+
+    <hr>
+
+<h3>Fieldset Kullanımı</h3>
+   <form action="" method="post">
+
+    <fieldset>
+    
+        <legend>Kişisel Bilgileri:</legend>
+
+        <label for="adsoyad">Ad-soyad</label> <br>
+        <input type="text" name="adsoyad" id="adsoyad"> <br> <br>
+
+        <label for="telefon">Telefon</label> <br>
+        <input type="tel" name="telefon" id="telefon">
+
+    </fieldset>
+
+    <fieldset>
+    
+        <legend>Sosyal Medya:</legend>
+
+        <label for="facebook">Facebook</label> <br>
+        <input type="text" name="facebook" id="facebook"> <br> <br>
+
+        <label for="twitter">Twitter</label> <br>
+        <input type="text" name="twitter" id="twitter">
+
+    </fieldset> 
+
+
+    <select name="cinsiyet"> 
+    <!--Çoklu seçim için "multiple" niteliği ekle fakat name'in sonuna [] ekle yani name[] (burası yazılımla alakalı)-->
+    <option value="">Cinsiyetinizi Seçin</option>
+    <option value="1">Erkek</option> <!--Seçili getirmek istiyorsak "selected" niteliği getir. -->
+    <option value="2">Kadın</option>
+</select>
+    <button type="submit">Kaydet</button>
+</form> 
+
+<hr>
+
+<form>
+    <input list="tarayicilar">
+    <datalist id="tarayicilar">
+        <option value="Google Chrome">
+        <option value="Mozilla Firefox">
+        <option value="Opera">
+        <option value="Safari">
+        <option value="Edge">
+        <option value="Internet Explorer">
+    </datalist>
+</form>
+        
+</form>
+</body>
+</html>
