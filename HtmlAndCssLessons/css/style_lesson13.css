@@ -1,0 +1,47 @@
+/* CSS Document */
+
+p{
+	
+	padding: 99990px;
+	border-width:4px ;
+ 	font-family: Arial ;
+}
+
+.border-dashed{
+	
+	border-style:dashed; /*kesikli çizgi oluşturur paragraf etrafına*/
+	
+}
+
+.border-dotted{
+	
+	border-style:dotted;
+	
+}
+
+.border-double{
+	
+	border-style:double; 
+	
+}
+
+.border-inset{
+	
+	border-style:inset; /*butona basılmış şekli oluşturur paragraf etrafına*/
+	
+}
+
+.border-mix{
+	
+	border-top-style:ridge; /*sadece üst çerçeve*/
+	border-bottom-style:solid; 
+	border-width: 10px;
+}
+
+.border-xy{
+	
+	border-style: solid dashed; /*toplu şekilde yazmak istersek ilk kelime üst-alt, ikinci kelime sağ ve sol temsil eder.*/
+								/*3 kod için üst, sağ - sol, alt */
+	 							/*4 kod için üst, sağ, alt, sol yani üstten saat yönünde ilerler.*/
+}
+

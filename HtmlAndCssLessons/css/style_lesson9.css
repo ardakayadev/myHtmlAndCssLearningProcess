@@ -1,0 +1,36 @@
+/* CSS Document */
+
+h2{
+	
+	text-align: center; /*h2'yi merkeze aldı, right olsa sağa koyardı. align:yön demek.*/
+	
+}
+
+p{
+	
+	line-height: 180%; /*satırlar arası boşluk. */
+	text-indent: 50px; /*paragrafın ilk kelimesine soldan bırakılacak boşluk. satır başı.*/
+	
+}
+
+body{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
+	
+	background-color:#8C8585; /*sayfanın arka plan rengi*/
+	color: #292222; /*yazı rengi*/
+	/*background-image: url(https://images.pexels.com/photos/3784566/pexels-photo-3784566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */ /*sayfa arka planını bir url adresinden çekme*/
+	background-repeat: no-repeat; /*ekran boyutundan küçük arka planlar için resim oto. olarak tekrarlanır, bunu no-repeat ile engelleyebiliriz*/
+	background-position: 50% 25%; /*x ekseninde %50 y ekseninde %25 pozisyona yerleştirir*/
+	
+}
+
+#first{
+	color: #640001;  /*paragrafları özel olarak değiştirmek için istenilen paragrafın id'sine "first" dedik. #first ile özel olarak tasarımını yapıyoruz*/
+}
+	
+
+#cs1 {  /*class adları html kodlarında birden fazla etikete verilebilir. css'ten ".class_adı" şeklinde ulaşılıp aynı addaki tüm classların tasarımı yapılabilir.*/
+	
+	color: blue;
+	
+}

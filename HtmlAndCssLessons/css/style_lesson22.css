@@ -1,0 +1,36 @@
+.label1{
+    background: black;
+    color: whitesmoke;
+    width: 70px;
+    padding:5px;
+    border-radius: 10px;
+
+}
+
+.box, input {
+    display: none;
+}
+input:checked + .box {
+    display: block;
+}
+
+.box {
+
+    border: 2px solid;
+    width: 200px;
+    border-color: grey;
+}
+
+/*-------------------------------------*/
+
+ul li:empty { /*3. li etiketi seçilmeyecektir çünkü boşluk karakteri olduğu için bunu boş kabul etmemektedir*/
+    background-color: lime;
+}
+
+/*Bu ":empty" sözde sınıfı genelde boş olanı gizlemek için kullanılır. */
+
+.ul2 .li2:empty{
+
+    display: none;
+}
+

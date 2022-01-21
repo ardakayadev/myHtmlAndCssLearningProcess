@@ -1,0 +1,54 @@
+input{
+
+	color: red;
+
+
+}
+
+input::placeholder{
+
+	color: greenyellow;  /*Input'a girilen değer etkilenir. */
+}
+
+textarea::placeholder{
+
+	color: blueviolet;  /*Sadece placeholder etkilenir.*/
+	font-size: 35px;
+
+}
+
+::placeholder{  /* Tüm placeholder'lar etkilenir */
+
+	font-family: sans-serif;
+
+}
+
+/*------------------------*/
+
+.p1::selection {
+
+	color: grey;
+	background-color: black;
+}
+
+.p2::selection{
+
+	color: mediumpurple;
+}
+
+/*------------------------*/
+
+.first-child li:first-child {
+    background-color: lime;
+    width: 40px;
+}
+
+div:first-child{
+
+	background-color: black;  /*Bunu kabul etmeyecektir çünkü buradaki ilk div çocuk etiketini seçmek istiyoruz ancak ilk çocuk etiketi p etiketi olduğu için işlem geçerli olmuyor. */
+/* Direkt body:first-child olarak kullanırsak ilk etiketi etkiler */
+
+
+/*AYNI ŞEYLER :last-child ile de kullanılabilir */
+}
+

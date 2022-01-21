@@ -1,0 +1,54 @@
+.box1{
+
+	background-color: grey;
+	width: 250px;
+
+}
+
+.box1::after {
+ 	
+	/* "::" iki tane iki nokta, sözde elemanlar için kullanılır.
+		Content ile kullanılmalıdır. */
+
+	content: 'Önceki Yazı';
+	background: purple;
+	color: whitesmoke;
+
+}
+
+.box2 {
+
+background-color: grey;
+	width: 250px;
+
+}
+
+
+.box2::before{
+
+	content: 'Sonraki Yazı';
+	background: purple;
+	color: whitesmoke;
+
+}
+/*------------------------------------------*/
+
+.first-class::first-letter {
+
+color: darkred;
+font-size: 50px;
+
+}
+
+.first-line::first-line {  /* İlk satırı seçer. */
+
+color: aqua;
+background: darkred;
+font-size: 30px;	
+
+}
+
+/*------------------------------------------*/
+
+
+	

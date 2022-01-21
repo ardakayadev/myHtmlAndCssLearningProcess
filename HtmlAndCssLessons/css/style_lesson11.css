@@ -1,0 +1,57 @@
+/* CSS Document */
+
+p,h2{ /*aynı css'i 3 etikete uygulayabiliriz*/
+	
+	color:#1A518F;
+}
+
+h2.center{ /*center class'ına sadece h2 etiketinde ulaşmak istediğimiz için h2.center yazdık, yoksa tüm "center" classları değişirdi*/
+	
+	text-align: center;
+	
+}
+
+p.center{
+	text-align:right;
+}
+
+mark{
+	
+	background-color: chocolate;
+	color:midnightblue;
+	font-size: 20px;
+}
+
+.style-table{
+	
+	border: 2px solid #666;
+	margin: 15px;
+}
+
+.style-table td,th{
+	
+border: 1px solid #666;
+padding: 5px;
+
+}
+
+.style-table tr{
+	
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+
+.style-table th{
+	
+	background-color:brown;
+	color: white;
+	font-size: 20px;
+		
+}
+
+
+.style-table td{
+	
+	font-style:italic;
+	
+}

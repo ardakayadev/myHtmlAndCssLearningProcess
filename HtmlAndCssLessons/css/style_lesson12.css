@@ -1,0 +1,20 @@
+/* CSS Document */
+
+.background{
+	
+	color: white;
+	background-color: darkolivegreen;
+	background-image:url("../img/pngwing.com.png");
+	background-repeat: no-repeat; /*ufak backgroundlarda tekrarlamayı önler*/
+	background-position: right top; /*x ve y düzleminde ayrı düzenlemek istersek "%50 %30" şeklinde yazabiliriz*/
+	background-size: 20%;
+	background-attachment: fixed; /*sayfa aşağı kaydırılsa da sabit kalmasını sağlar*/
+	
+	/*------------------------------------------------------------------------------------------------*/
+	
+	background: white darkolivegreen url("../img/pngwing.com.png") no-repeat right top 20% fixed; /*üstteki gibi tek tek yazmak yerine "background" etiketi altında hepsini birleştirebiliriz.*/ 
+
+	
+}
+
+

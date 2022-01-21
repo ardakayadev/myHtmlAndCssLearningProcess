@@ -1,0 +1,36 @@
+[class~="box"] {
+	/* Nitelik içinde belirtilen değer geçen etiketleri seçmek için kullanılır */
+
+	background-color: red;
+	width: 300px;
+	height: px ;
+}
+
+
+[class|="box2"] {
+		/* Nitelik belirtilen değerle başlayan etiketleri seçer */
+	width: 300px;
+	background-color: yellow;
+
+}
+
+[class^="box3"] {
+		/*Yukarıdaki seçicinin aksine belirtilen değer ile başlayan tüm etiketleri seçmek için kullanılır. Boşluk tire işareti vs. hiçbirine bakmaz. */
+	width: 300px;
+	background-color: brown;
+
+}
+
+[class$="box4"] {
+		width: 300px;
+		background-color: darkred;
+	}
+
+[class$="ox5"] {
+		width: 300px;
+		background-color: grey;
+ 		
+
+}
+
+}

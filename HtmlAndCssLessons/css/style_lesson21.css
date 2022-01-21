@@ -1,0 +1,27 @@
+div:nth-child(3){	/* "nth-child" kodu burada çalışmaz çünkü 3. etiket "p" etiketidir.*/
+	background-color: grey;
+
+}
+
+
+/*Bu problemin önüne "nth-of-type" ile geçilir*/
+
+div:nth-of-type(3) {
+
+	background-color: orangered;
+
+}
+
+/*nt-last-of-type ile işlemin tam tersi yapılabilir. */
+
+/*---------------------------------------------------*/
+
+input:checked+span { /*checked işlemi olduktan sonra, input etiketinden sonra gelen span etiketine stil işlemi uygular. */
+
+	background-color: darkgreen;
+	color: whitesmoke;
+}
+
+/*---------------------------------------------------*/
+
+}
